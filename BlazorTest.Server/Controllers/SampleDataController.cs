@@ -28,7 +28,7 @@ namespace BlazorTest.Server.Controllers
         }
 
         [HttpGet("[action]")]
-        public IEnumerable<string> WhetherSummaries()
+        public IEnumerable<string> WheatherSummaries()
         {
             return Summaries;            
         }
